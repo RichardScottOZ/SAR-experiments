@@ -4,6 +4,9 @@ Experiments related to things to do with SAR data that might be useful.
 ## Papers
 - Deriving Surface Resistivity from Polarimetric SARData Using Dual-Input UNet : https://arxiv.org/pdf/2207.01811.pdf
 
+## Data
+- AWS Stac catalogue https://github.com/awslabs/open-data-registry/blob/main/datasets/sentinel-1-rtc-indigo.yaml
+
 ## Processing
 - https://github.com/RichardScottOZ/openSAR
 - https://github.com/Narayana-Rao/PolSAR-tools [QGIS plugin mentioned in paper]
