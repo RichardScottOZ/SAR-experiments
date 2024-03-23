@@ -18,3 +18,5 @@ Experiments related to things to do with SAR data that might be useful.
 - Phind 34
 - Produces a different code version
 	- Same result of course
+	- Gets stuck in a loop trying to fix a different error
+	
