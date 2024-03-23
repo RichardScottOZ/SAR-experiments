@@ -10,8 +10,8 @@ def decoder_block(inputs, skip, filters):
     upsample = tf.keras.layers.Conv2DTranspose(filters, 2, strides=(2, 2), padding='same')(inputs)
     
     # Calculate the padding required to match the spatial dimensions
-    h_pad = skip.shape[1] - upsample.shape[1]
-    w_pad = skip.shape[2] - upsample.shape[2]
+    h_pad = abs(skip.shape[1] - upsample.shape[1])
+    w_pad = abs(skip.shape[2] - upsample.shape[2])
     padding = ((h_pad // 2, h_pad - h_pad // 2), (w_pad // 2, w_pad - w_pad // 2))
     
     # Pad the upsampled tensor to match the spatial dimensions of the skip connection
