@@ -1,5 +1,8 @@
 # SAR-experiments
 Experiments related to things to do with SAR data that might be useful.
+Seeing some LLMs go with answers as a starting point - generally for things not boilerplate, not going to do too well.  Even more so with science.
+# IMPORTANT
+DO NOT assume any of the code here will run - any of it does, will note and put in a WORKING folder.
 
 ## Papers
 - Deriving Surface Resistivity from Polarimetric SARData Using Dual-Input UNet : https://arxiv.org/pdf/2207.01811.pdf
