@@ -20,3 +20,6 @@ Experiments related to things to do with SAR data that might be useful.
 	- Same result of course
 	- Gets stuck in a loop trying to fix a different error
 	
+- Perplexity free
+		- Would expect same things
+		- Produced a no-error 'model' first try
