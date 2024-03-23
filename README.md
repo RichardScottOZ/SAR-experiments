@@ -12,3 +12,4 @@ Experiments related to things to do with SAR data that might be useful.
 	- likely yes
 	- get it right, very little chance
 	- 5 tries to correct an error to get an actual 'model'
+		- Not a correct model, but a model that doesn't have actual errors
