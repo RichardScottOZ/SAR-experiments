@@ -1,11 +1,12 @@
 # SAR-experiments
 Experiments related to things to do with SAR data that might be useful.
 
-## Processing
-- https://github.com/RichardScottOZ/openSAR
-
 ## Papers
 - Deriving Surface Resistivity from Polarimetric SARData Using Dual-Input UNet : https://arxiv.org/pdf/2207.01811.pdf
+
+## Processing
+- https://github.com/RichardScottOZ/openSAR
+- https://github.com/Narayana-Rao/PolSAR-tools [QGIS plugin mentioned in paper]
 
 ## Experiments
 - Can ChatGPT 3.5 lift an architecture out of a paper
