@@ -5,7 +5,12 @@ Experiments related to things to do with SAR data that might be useful.
 - Deriving Surface Resistivity from Polarimetric SARData Using Dual-Input UNet : https://arxiv.org/pdf/2207.01811.pdf
 
 ## Data
+### Sentinel-1
 - AWS Stac catalogue https://github.com/awslabs/open-data-registry/blob/main/datasets/sentinel-1-rtc-indigo.yaml
+### Magnetotellurics
+#### Cloncurry
+- https://geoscience.data.qld.gov.au/data/report/cr124399
+	- otherwise known as first survey I thought of online
 
 ## Processing
 - https://github.com/RichardScottOZ/openSAR
