@@ -19,7 +19,9 @@ Experiments related to things to do with SAR data that might be useful.
 - Produces a different code version
 	- Same result of course
 	- Gets stuck in a loop trying to fix a different error
+	- https://www.phind.com/search?cache=wlvfrv0bddld5xahaeyko2j1
 	
 - Perplexity free
 		- Would expect same things
 		- Produced a no-error 'model' first try
+		- https://www.perplexity.ai/search/Please-turn-this-SeRVbVKQTlWMcZQSRCcong
