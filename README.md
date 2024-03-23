@@ -25,6 +25,8 @@ Experiments related to things to do with SAR data that might be useful.
 		- Would expect same things
 		- Produced a no-error 'model' first try
 		- https://www.perplexity.ai/search/Please-turn-this-SeRVbVKQTlWMcZQSRCcong
+		- Most robots can do things like turn text into tables and perplexity got this first go
+
 		
 		
 ## Features
