@@ -42,5 +42,3 @@ def build_model(input_shape=(128, 128, 23)):
 
 model = build_model()
 model.summary()
-
-print(model.output)
