@@ -50,3 +50,5 @@ def dual_input_unet(input_shape=(128, 128, 23)):
 # Creating an instance of the model
 model = dual_input_unet()
 model.summary()
+
+print(model.outputs)
