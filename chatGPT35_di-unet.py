@@ -7,18 +7,10 @@ def encoder_block(inputs, filters):
     return pool
 
 def decoder_block(inputs, skip, filters):
-    upsample = tf.keras.layers.Conv2DTranspose(filters, 2, strides=(2, 2), padding='same')(inputs)
+    upsample_factor = (skip.shape[1] // inputs.shape[1], skip.shape[2] // inputs.shape[2])
+    upsample = tf.keras.layers.Conv2DTranspose(filters, 2, strides=upsample_factor, padding='same')(inputs)
     
-    # Calculate the padding required to match the spatial dimensions
-    h_pad = abs(skip.shape[1] - upsample.shape[1])
-    w_pad = abs(skip.shape[2] - upsample.shape[2])
-    padding = ((h_pad // 2, h_pad - h_pad // 2), (w_pad // 2, w_pad - w_pad // 2))
-    
-    # Pad the upsampled tensor to match the spatial dimensions of the skip connection
-    upsample_padded = tf.keras.layers.ZeroPadding2D(padding)(upsample)
-    
-    # Concatenate the upsampled tensor with the skip connection
-    concat = tf.keras.layers.Concatenate()([upsample_padded, skip])
+    concat = tf.keras.layers.Concatenate()([upsample, skip])
     
     conv1 = tf.keras.layers.Conv2D(filters, 3, activation='relu', padding='same')(concat)
     conv2 = tf.keras.layers.Conv2D(filters, 3, activation='relu', padding='same')(conv1)
