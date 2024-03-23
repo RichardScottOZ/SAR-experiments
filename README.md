@@ -48,3 +48,7 @@ Experiments related to things to do with SAR data that might be useful.
 
 This table summarizes the various polarimetric parameters and features used in the study, providing a quick reference for their short form descriptions and corresponding details.
 		
+
+## DataLoader
+- When asked about a dataloader, perplexity gave it a shot
+	- Basically makes sense at a simple level		
