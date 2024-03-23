@@ -10,19 +10,21 @@ Experiments related to things to do with SAR data that might be useful.
 	- https://step.esa.int/main/toolboxes/polsarpro-v6-0-biomass-edition-toolbox/
 
 ## Experiments
+### ChatGPT
 - Can ChatGPT 3.5 lift an architecture out of a paper
 	- likely yes
 	- get it right, very little chance
 	- 5 tries to correct an error to get an actual 'model'
 		- Not a correct model, but a model that doesn't have actual errors
 		
-		
-- Phind 34
+	
+### Phind 34
 - Produces a different code version
 	- Same result of course
 	- Gets stuck in a loop trying to fix a different error
 	- https://www.phind.com/search?cache=wlvfrv0bddld5xahaeyko2j1
 	
+### Perplexity
 - Perplexity free
 		- Would expect same things
 		- Produced a no-error 'model' first try
