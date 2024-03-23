@@ -7,7 +7,7 @@ def encoder_block(inputs, filters):
     return pool
 
 def decoder_block(inputs, skip, filters):
-    upsample_factor = (skip.shape[1] // inputs.shape[1], skip.shape[2] // inputs.shape[2])
+    upsample_factor = (skip.shape[1] * 2 // inputs.shape[1], skip.shape[2] * 2 // inputs.shape[2])
     upsample = tf.keras.layers.Conv2DTranspose(filters, 2, strides=upsample_factor, padding='same')(inputs)
     
     concat = tf.keras.layers.Concatenate()([upsample, skip])
