@@ -38,10 +38,13 @@ Experiments related to things to do with SAR data that might be useful.
 	
 ### Perplexity
 - Perplexity free
-		- Would expect same things
-		- Produced a no-error 'model' first try
-		- https://www.perplexity.ai/search/Please-turn-this-SeRVbVKQTlWMcZQSRCcong
-		- Most robots can do things like turn text into tables and perplexity got this first go
+#### DI-UNET
+- Would expect same things
+- Produced a no-error 'model' first try
+- https://www.perplexity.ai/search/Please-turn-this-SeRVbVKQTlWMcZQSRCcong
+- Most robots can do things like turn text into tables and perplexity got this first go
+#### QLD Open Data API
+- Asked for code there - get a generic requests request - as it doesn't actually know the api
 
 		
 		
