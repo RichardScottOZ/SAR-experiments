@@ -8,7 +8,13 @@ def encoder_block(inputs, filters):
 
 def decoder_block(inputs, skip, filters):
     upsample = tf.keras.layers.Conv2DTranspose(filters, 2, strides=(2, 2), padding='same')(inputs)
-    concat = tf.keras.layers.Concatenate()([upsample, skip])
+    
+    # Crop or resize the skip connection to match the spatial dimensions of the upsampled tensor
+    skip_crop = tf.keras.layers.Cropping2D(cropping=((1, 1), (1, 1)))(skip)  # Example cropping
+    # Alternatively, you can use resizing operation like tf.keras.layers.UpSampling2D
+    
+    concat = tf.keras.layers.Concatenate()([upsample, skip_crop])
+    
     conv1 = tf.keras.layers.Conv2D(filters, 3, activation='relu', padding='same')(concat)
     conv2 = tf.keras.layers.Conv2D(filters, 3, activation='relu', padding='same')(conv1)
     return conv2
