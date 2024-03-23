@@ -25,3 +25,26 @@ Experiments related to things to do with SAR data that might be useful.
 		- Would expect same things
 		- Produced a no-error 'model' first try
 		- https://www.perplexity.ai/search/Please-turn-this-SeRVbVKQTlWMcZQSRCcong
+		
+		
+## Features
+### Table I: Details of the Polarimetric Parameters/Features Used in This Study
+
+| Short Form | Description                                       |
+|------------|---------------------------------------------------|
+| σ◦HH       | Backscatter intensity (HH polarization)            |
+| σ◦HV       | Backscatter intensity (HV polarization)            |
+| σ◦VV       | Backscatter intensity (VV polarization)            |
+| λ1, λ2, λ3 | Eigen values                                      |
+| H, A, α    | Cloude decomposition parameters                   |
+| β, δ, γ    | Polarimetric intercorrelation parameters          |
+| mFP        | Barakat degree of polarization                    |
+| θFP        | Scattering type parameter based on degree of polarization |
+| Ps, Pd, Pv, Pc | Model-free decomposition powers                 |
+| purity     | Scattering degree of purity                       |
+| depolarization | Depolarization index                             |
+| Span       | Total power                                       |
+| HI, HP     | Shannon entropy parameters                        |
+
+This table summarizes the various polarimetric parameters and features used in the study, providing a quick reference for their short form descriptions and corresponding details.
+		
