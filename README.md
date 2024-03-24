@@ -51,6 +51,8 @@ I will put anything I write into the src folder.
 - Most robots can do things like turn text into tables and perplexity got this first go
 #### QLD Open Data API
 - Asked for code there - get a generic requests request - as it doesn't actually know the api
+#### AWS Stac Catalogue
+- Vaguely understands this - but only in boilerplate requests fashion, as you would expect
 
 		
 		
