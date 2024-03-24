@@ -11,6 +11,7 @@ I will put anything I write into the src folder.
 ## Data
 ### Sentinel-1
 - AWS requester pays https://registry.opendata.aws/sentinel-1/
+- US only https://scottyhq.github.io/sentinel1-rtc-stac/#/
 - AWS catalogue https://github.com/awslabs/open-data-registry/blob/main/datasets/sentinel-1-rtc-indigo.yaml
 ### GSQ Open Data API
 - https://github.com/RichardScottOZ/open-data-api
