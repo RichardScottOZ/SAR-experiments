@@ -82,6 +82,14 @@ plt.show() #block
 
 # looks good - one outlier that might be wrong?
 
+# can use as a bounding box to get SAR data from online sources now if want to
+# small enough not to bother saving that, just use the data file
+bb = gdfmt.total_bounds
+print("BOUNDING BOX:",bb)
+
+gdfmt.to_file('Cloncurry_MT_Locations.gpkg',drive='GPKG')
+
+
 
 
 
