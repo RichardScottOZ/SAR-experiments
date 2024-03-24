@@ -58,5 +58,21 @@ for batch in tqdm(results_list, total=len(results_list) ):
 dfDatasets = pd.concat(result_ids)            
 
 
+### getting the SiteLocations is what we want
+pd.set_option('display.max_columns', 500)
+
+
+### getting the SiteLocations is what we want
+## guess they are generic geospatial formats if sensible
+
+sl = dfDatasets.loc[dfDatasets['name'].str.contains('ocation')]
+
+gdflist = []
+import geopandas as gpd
+for index, row in sl.iterrows():
+    gdf = gpd.read_file(row['url'])
+    gdflist.append(gdf)
+
+
 
 
