@@ -64,6 +64,7 @@ pd.set_option('display.max_columns', 500)
 
 ### getting the SiteLocations is what we want
 ## guess they are generic geospatial formats if sensible
+## can also make the initial naive assumption that the geometry is the same
 
 sl = dfDatasets.loc[dfDatasets['name'].str.contains('ocation')]
 
@@ -72,6 +73,16 @@ import geopandas as gpd
 for index, row in sl.iterrows():
     gdf = gpd.read_file(row['url'])
     gdflist.append(gdf)
+
+gdfmt = pd.concat(gdflist)    
+
+import matplotlib.pyplot as plt
+gdfmt.plot()
+plt.show() #block
+
+# looks good - one outlier that might be wrong?
+
+
 
 
 
